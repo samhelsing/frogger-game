@@ -1,0 +1,50 @@
+.grid {
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+.log-left, .log-right{
+    background-color: aqua;
+}
+.car-left, .car-right{
+    background-color: lightgray;
+}
+.frog{
+
+    background-image: url("frog.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.log{
+    background-image: url("log.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.car{
+    background-image: url("car.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.car2{
+    background-image: url("car2.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
